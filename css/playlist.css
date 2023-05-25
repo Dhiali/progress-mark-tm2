@@ -1,0 +1,289 @@
+html, body, h1{
+    margin:0;
+    padding:0;
+
+}
+
+.line {
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+    width: 100%;
+    float: center;
+}
+nav{
+    
+
+    background:white;
+  height:210px;
+  z-index:999;
+  margin:0 auto;
+  border-bottom:3px solid black;
+  width:100%;
+  position:fixed;
+  padding-top:0;
+  left:0;
+  right:0;
+  text-align:center;
+
+}
+
+.nav-con ul{
+    list-style:none;
+
+}
+
+.nav-con li{
+    float:left;
+    height:26px;
+    color:green;
+    border-radius:5px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-right:10px;
+    margin-left:10px;
+    padding-top:8px;
+
+}
+
+.nav-con li:hover{
+    background-color:black;
+    height:10px;
+    color:whites;
+    cursor:pointer;
+
+}
+
+.nav-con a{
+    
+    float: center;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        padding-top:45px;
+    
+        
+    
+    }
+    
+    .top{
+        position: top;
+        width:100%;
+            height:80px;
+            padding-left:3%;
+            padding-right:3%;
+        background-color: grey;
+        
+        }
+          
+          
+        .logo{
+            width:200px;
+            float:left;
+            height:50px;
+            
+        
+        }
+        .logo-con{
+            width:100%;
+            text-align:center;
+            margin-top:15px;
+            
+            
+        }
+        
+        .logo-con img{
+            width:80%;
+            
+        }
+
+        .logo-image{
+            width:200px;;
+            height:40px;
+            background-image: url("../assets/stream_logo_black.png");
+            background-position:center;
+            background-size:cover;
+            text-align:center;
+            padding-top:5px;
+            margin-top:5px;
+            float:left;
+            
+            
+           
+        }
+
+.d-flex{
+    width:30%;
+    float:right;
+    padding-top:45px;
+}
+
+.container text-center{
+    grid-column:12px;
+    border-block-width: 1.5px;
+    grid-auto-columns: 6px;
+
+}
+
+.social-media{
+    width:100%;
+    height:35px;
+    margin-top:15px;
+    float:right;
+    
+
+}
+
+.social1{
+    width:35px;
+    height:35px;
+    float:right;
+    margin:5px;
+    text-align:center;
+    padding-top:5px;
+    font-weight:bold;
+    color:white;
+    border-radius:50%;
+    padding-left:5px;
+    padding-bottom:1px;
+    float:center;
+    background-image: url("../assets/facebook.png");
+    background-position:center;
+    background-size:cover;
+
+}
+
+.social2{
+    width:35px;
+    height:35px;
+    float:right;
+    margin:5px;
+    text-align:center;
+    padding-top:5px;
+    font-weight:bold;
+    color:white;
+    border-radius:50%;
+    padding-left:5px;
+    padding-bottom:1px;
+    float:center;
+    background-image: url("../assets/insta.png");
+    background-position:center;
+    background-size:cover;
+}
+
+.social3{
+    width:35px;
+    height:35px;
+    float:right;
+    margin:5px;
+    text-align:center;
+    padding-top:5px;
+    font-weight:bold;
+    color:white;
+    border-radius:50%;
+    padding-left:5px;
+    padding-bottom:1px;
+    float:center;
+    background-image: url("../assets/twitter.jpg");
+    background-position:center;
+    background-size:cover;
+
+}
+
+.social4{
+    width:35px;
+    height:35px;
+    float:right;
+    margin:5px;
+    text-align:center;
+    padding-top:5px;
+    font-weight:bold;
+    color:white;
+    border-radius:50%;
+    padding-left:5px;
+    padding-bottom:1px;
+    float:center;
+    background-image: url("../assets/youtube.jpg");
+    background-position:center;
+    background-size:cover;
+
+}
+
+
+.social:hover{
+    background-color:white;
+color:white;
+cursor:pointer;
+}
+
+.logo-btm{
+    width:100px;
+    float:left;
+    height:65px;
+    margin-top:15px;
+    background-image: url("../assets/Arbys\ name.png");
+    background-position:center;
+    background-size:cover;
+    
+    
+
+}
+.logo-con-btm{
+    width:100%;
+    text-align:center;
+    margin-top:1px;
+}
+
+.logo-con-btm img{
+    width:80%;
+    
+}
+
+.copyright{
+    width:200px;
+    float:left;
+
+}
+.copyright-con{
+    width:100%;
+    text-align:center;
+    margin-top:25px;
+}
+
+.copyright-con img{
+    width:20%;
+    
+}
+
+footer{
+    width:100%;
+    height:80px;
+    background-color:white;
+    color:black ;
+    text-align:center;
+    position:sticky;
+    border-top: 2px solid black;
+}
+header{
+    width:100%;
+    height:350px;
+    padding-right:10%;
+    padding-left:10%;
+    font-family: 'Lato', sans-serif;
+}
+
+header h2{
+    font-size:35px;
+    padding-top:250px;
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    color:black;
+}
+
+header h6{
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    color:black;
+    float:right;
+}
