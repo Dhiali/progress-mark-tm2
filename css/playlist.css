@@ -14,7 +14,7 @@ nav{
     
 
     background:white;
-  height:210px;
+  height:150px;
   z-index:999;
   margin:0 auto;
   border-bottom:3px solid black;
@@ -61,7 +61,7 @@ nav{
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        padding-top:45px;
+        padding-top:30px;
     
         
     
@@ -101,7 +101,7 @@ nav{
         .logo-image{
             width:200px;;
             height:40px;
-            background-image: url("../assets/stream_logo_black.png");
+           
             background-position:center;
             background-size:cover;
             text-align:center;
@@ -116,7 +116,7 @@ nav{
 .d-flex{
     width:30%;
     float:right;
-    padding-top:45px;
+    padding-top:px;
 }
 
 .container text-center{
@@ -218,11 +218,11 @@ cursor:pointer;
 }
 
 .logo-btm{
-    width:100px;
+    width:200px;
     float:left;
     height:65px;
     margin-top:15px;
-    background-image: url("../assets/Arbys\ name.png");
+    background-image: url("../assets/supersub.jpg");
     background-position:center;
     background-size:cover;
     
@@ -275,7 +275,7 @@ header{
 
 header h2{
     font-size:35px;
-    padding-top:250px;
+    padding-top:180px;
     font-family: 'Lato', sans-serif;
     font-weight:300;
     color:black;
@@ -286,4 +286,183 @@ header h6{
     font-weight:300;
     color:black;
     float:right;
+    padding-top:1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+form{
+    width: 50%;
+    margin:  0 auto;
+    margin-top: 50px;
+}
+
+
+.left{
+    width: 60%;
+    float: left;
+    height: 130px;
+}
+
+.button-con{
+    width: 100%;
+    float: left;
+}
+
+.right{
+    height: 130px;
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+
+.orderCost{
+    background-color: #f7f7f7;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.card{
+    width: 29%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+    float: left;
+    margin: 2%;
+}
+
+input{
+    margin-top: 15px;
+}
+
+select{
+    margin-top: 15px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.base-options{
+    width: 33%;
+    height: 100px;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+.base-options h3{
+   margin-left:  -20px;
+   margin-bottom: 20px;
+}
+
+.toppings{
+    width: 66%;
+    margin-top: 20px;
+    float: left;
+    padding-left: 20px;
+}
+
+.toppings h3{
+    margin-left:  -20px;
+    margin-bottom: 20px;
+}
+
+.top-check{
+    width: 33%;
+    float: left;
+}
+
+
+.output{
+    width: 50%;
+    height: 45px;
+    margin:  0 auto;
+    margin-top: 50px;
+    border-bottom: 2px solid #2b2b2b;
+}
+
+.outHeader h3{
+    float: left;
+}
+
+.totalOrder{
+    float: left;
+    margin-left: 48%;
+}
+
+.totalOrder h3{
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.checkLeft{
+    width: 70%;
+    height: 100vh;
+    float: left;
+    padding-left: 0%;
+}
+
+.checkLeft h1{
+    margin-top: 50px;
+    color:white;
+}
+
+.checkLeft h3{
+    margin: 0;
+    padding: 0;
+}
+
+.checkRight {
+    width: 30%;
+    height: 100vh;
+    float: left;
+    background-color: lightgray;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.checkRight input {
+    width: 50%;
+    margin:  0 auto;
+}
+
+.checkRight h2{
+   font-size: 50px;
+   font-weight: 100;
+}
+
+.checkRight h3{
+    margin-top: 50px;
+    font-weight: 100;
+ }
+
+ .orderLine{
+    width: 90%;
+    height: 50px;
+    background-color:#f7f7f7;
+    border-radius: 5px;
+    margin-top: 20px;
+ }
+
+ .orderLine p{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    padding-top: 13px ;
+ }

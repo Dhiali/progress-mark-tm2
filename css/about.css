@@ -14,7 +14,7 @@ nav{
     
 
     background:white;
-  height:210px;
+  height:150px;
   z-index:999;
   margin:0 auto;
   border-bottom:3px solid black;
@@ -61,7 +61,7 @@ nav{
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        padding-top:45px;
+        padding-top:30px;
     
         
     
@@ -101,7 +101,6 @@ nav{
         .logo-image{
             width:200px;;
             height:40px;
-            background-image: url("../assets/stream_logo_black.png");
             background-position:center;
             background-size:cover;
             text-align:center;
@@ -116,7 +115,7 @@ nav{
 .d-flex{
     width:30%;
     float:right;
-    padding-top:45px;
+    padding-top:10px;
     
 }
 
@@ -219,11 +218,11 @@ cursor:pointer;
 }
 
 .logo-btm{
-    width:100px;
+    width:200px;
     float:left;
-    height:65px;
+    height:45px;
     margin-top:15px;
-    background-image: url("../assets/Arbys\ name.png");
+    background-image: url("../assets/supersub.jpg");
     background-position:center;
     background-size:cover;
     
@@ -237,7 +236,7 @@ cursor:pointer;
 }
 
 .logo-con-btm img{
-    width:80%;
+    width:100%;
     
 }
 
@@ -271,7 +270,7 @@ footer{
 
 header{
     width:100%;
-    height:1000px;
+    height:2000px;
     padding-right:10%;
     font-family: 'Lato', sans-serif;
   
@@ -336,3 +335,108 @@ select, button{
 
 
 
+
+
+
+
+form{
+    width: 50%;
+    margin:  0 auto;
+    margin-top: 50px;
+}
+
+.left{
+    width: 60%;
+    float: left;
+    height: 130px;
+}
+
+.right{
+    height: 130px;
+    width: 40%;
+    float: right;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+
+.orderCost{
+    background-color: #f7f7f7;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.card{
+    width: 5%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+    float: left;
+    margin: 2%;
+}
+
+input{
+    margin-top: 15px;
+}
+
+select{
+    margin-top: 15px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.base-options{
+    width: 33%;
+    height: 100px;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+.base-options h3{
+   margin-left:  -20px;
+   margin-bottom: 20px;
+}
+
+
+
+.toppings h3{
+    margin-left:  -20px;
+    margin-bottom: 20px;
+}
+
+.top-check{
+    width: 10%;
+
+    display: block;
+}
+
+
+.output{
+    width: 100%;
+    height: 45px;
+    margin:  0 auto;
+    margin-top: 50px;
+    border-bottom: 2px solid #2b2b2b;
+   
+}
+
+.outHeader h3{
+    float: left;
+}
+
+.totalOrder{
+    float: left;
+    margin-left: 100%;
+}
+
+.totalOrder h3{
+    font-size: 50px;
+    margin-top: -60px;
+    
+}
